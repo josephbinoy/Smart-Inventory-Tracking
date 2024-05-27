@@ -1,7 +1,12 @@
 # Smart-Inventory-Tracking
 IoT-based Smart Inventory Tracking using Raspberry Pi
 
-#Run the model using following command
+1. Clone darknet repository
 ```
-!./darknet detector test data/obj.data cfg/yolov4-tiny-custom.cfg /mydrive/yolov4-tiny/training/yolov4-tiny-custom_best.weights /content/darknet/data/test/image158_jpg.rf.ef44f009acac809a45dc08afd4095870.jpg -thresh 0.3
+git clone https://github.com/AlexeyAB/darknet
+```
+
+2. Run the model using following command in terminal
+```
+./darknet detector test path/to/obj.data path/to/yolov4-tiny-custom.cfg path/to/yolov4-tiny-custom_best.weights path/to/image.jpg
 ```
