@@ -1,6 +1,7 @@
 # Smart-Inventory-Tracking
 IoT-based Smart Inventory Tracking using Raspberry Pi
 
+1. Download darknet and build
 ```
 git clone https://github.com/AlexeyAB/darknet
 cd darknet
