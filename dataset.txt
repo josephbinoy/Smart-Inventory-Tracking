@@ -1,0 +1,14 @@
+#jupyter
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="LHnjLEge0KLuUZs1HE8u")
+project = rf.workspace("inventory-tracking").project("smart-inventory-tracking")
+version = project.version(1)
+dataset = version.download("darknet")
+
+#direct
+https://app.roboflow.com/ds/lZ2Wwnr63S?key=9oxsVHVH7i
+
+#terminal
+curl -L "https://app.roboflow.com/ds/lZ2Wwnr63S?key=9oxsVHVH7i" &gt; roboflow.zip; unzip roboflow.zip; rm roboflow.zip
