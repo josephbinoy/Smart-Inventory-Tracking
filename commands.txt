@@ -1,0 +1,11 @@
+0. Activate iot_env venv
+source iot_env/bin/activate
+
+
+1. copy image from pi to windows
+
+scp josephbinoy@yggdrasil.local:~/Projects/Inventory\ Tracking/image.jpg C:/Users/josep/Pictures
+
+2. Run YOLO without logging
+
+./darknet detector test data/obj.data yolov4-tiny-custom.cfg yolov4-tiny-custom_best.weights ../image.jpg 2>/dev/null | grep -E "../image.jpg|%" > result.txt
