@@ -21,5 +21,5 @@ make
 
 4. Monitor Inventory using Azure IoT Central App
    
-![alt text]([https://raw.githubusercontent.com/josephbinoy/Smart-Inventory-Tracking/main/results/download.png](https://github.com/josephbinoy/Smart-Inventory-Tracking/blob/main/results/azure_iot.jpeg)
+![alt text](https://github.com/josephbinoy/Smart-Inventory-Tracking/blob/main/results/azure_iot.jpeg)
 
